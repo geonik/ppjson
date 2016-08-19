@@ -33,9 +33,13 @@ prettyfied json object to stdout.
 
 There are two optional arguments.
 
---indent defines the amount of indent in the prettyfied json. It defaults to 4.
+        ppjson --indent 
 
---ensure-ascii controls whether non ascii characters will be printed to the output. It defaults to False
+defines the amount of indent in the prettyfied json. It defaults to 4.
+
+        ppjson --ensure-ascii 
+
+controls whether non ascii characters will be printed to the output. It defaults to False
 
 When this option is set to True non ascii characters will be encoded with their unicode codepoint.
 For example  the Greek lambda character "λ" will be output as "\u03bb".
