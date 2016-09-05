@@ -4,7 +4,7 @@ ppjson is a command line utility to print and modify the contents
 of a json file to pretty format.
 
 It has no external dependencies apart from the Python standard library
-and works with both Python 2 and Python 3.
+and works with Python 3.
 
 # Usage
 
